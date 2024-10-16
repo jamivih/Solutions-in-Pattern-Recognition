@@ -1,0 +1,1 @@
+# Solutions-in-Pattern-Recognition
