@@ -1,0 +1,37 @@
+2024-10-26 15:38:10,244 INFO    MainThread:20432 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-26 15:38:10,244 INFO    MainThread:20432 [wandb_setup.py:_flush():79] Configure stats pid to 20432
+2024-10-26 15:38:10,245 INFO    MainThread:20432 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Jamiv\.config\wandb\settings
+2024-10-26 15:38:10,245 INFO    MainThread:20432 [wandb_setup.py:_flush():79] Loading settings from c:\Users\Jamiv\Desktop\HAMK\Staattisen verkkosivun rakentaminen\Ryhmätyö\testsite\Solutions-in-Pattern-Recognition\ResNet18\wandb\settings
+2024-10-26 15:38:10,245 INFO    MainThread:20432 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-26 15:38:10,245 INFO    MainThread:20432 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-26 15:38:10,247 INFO    MainThread:20432 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-26 15:38:10,247 INFO    MainThread:20432 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-26 15:38:10,248 INFO    MainThread:20432 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\Jamiv\Desktop\HAMK\Staattisen verkkosivun rakentaminen\Ryhmätyö\testsite\Solutions-in-Pattern-Recognition\ResNet18\wandb\run-20241026_153810-x9plx55o\logs\debug.log
+2024-10-26 15:38:10,248 INFO    MainThread:20432 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\Jamiv\Desktop\HAMK\Staattisen verkkosivun rakentaminen\Ryhmätyö\testsite\Solutions-in-Pattern-Recognition\ResNet18\wandb\run-20241026_153810-x9plx55o\logs\debug-internal.log
+2024-10-26 15:38:10,248 INFO    MainThread:20432 [wandb_init.py:init():621] calling init triggers
+2024-10-26 15:38:10,248 INFO    MainThread:20432 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'epochs': 10, 'batch_size': 16, 'learning_rate': 0.0001, 'architecture': 'ResNet18', 'dataset': 'tree_detection'}
+2024-10-26 15:38:10,248 INFO    MainThread:20432 [wandb_init.py:init():646] re-initializing run, found existing run on stack: fvsuhbwk
+2024-10-26 15:38:10,251 INFO    MainThread:20432 [wandb_run.py:_finish():2158] finishing run jvhamk-h-me-university-of-applied-sciences/resnet18-transfer-learning-hamk/fvsuhbwk
+2024-10-26 15:38:10,252 INFO    MainThread:20432 [jupyter.py:save_history():459] not saving jupyter history
+2024-10-26 15:38:10,253 INFO    MainThread:20432 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-26 15:38:10,253 INFO    MainThread:20432 [wandb_init.py:_jupyter_teardown():462] cleaning up jupyter logic
+2024-10-26 15:38:10,253 INFO    MainThread:20432 [wandb_run.py:_atexit_cleanup():2426] got exitcode: 0
+2024-10-26 15:38:10,253 INFO    MainThread:20432 [wandb_run.py:_restore():2408] restore
+2024-10-26 15:38:10,253 INFO    MainThread:20432 [wandb_run.py:_restore():2414] restore done
+2024-10-26 15:38:12,515 INFO    MainThread:20432 [wandb_run.py:_footer_history_summary_info():3975] rendering history
+2024-10-26 15:38:12,516 INFO    MainThread:20432 [wandb_run.py:_footer_history_summary_info():4007] rendering summary
+2024-10-26 15:38:12,527 INFO    MainThread:20432 [wandb_run.py:_footer_sync_info():3934] logging synced files
+2024-10-26 15:38:12,535 INFO    MainThread:20432 [wandb_init.py:init():671] starting backend
+2024-10-26 15:38:12,536 INFO    MainThread:20432 [wandb_init.py:init():675] sending inform_init request
+2024-10-26 15:38:12,540 INFO    MainThread:20432 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-26 15:38:12,540 INFO    MainThread:20432 [wandb_init.py:init():688] backend started and connected
+2024-10-26 15:38:12,558 INFO    MainThread:20432 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-26 15:38:12,575 INFO    MainThread:20432 [wandb_init.py:init():783] updated telemetry
+2024-10-26 15:38:12,631 INFO    MainThread:20432 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-26 15:38:13,174 INFO    MainThread:20432 [wandb_init.py:init():867] starting run threads in backend
+2024-10-26 15:38:13,659 INFO    MainThread:20432 [wandb_run.py:_console_start():2463] atexit reg
+2024-10-26 15:38:13,659 INFO    MainThread:20432 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2024-10-26 15:38:13,660 INFO    MainThread:20432 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2024-10-26 15:38:13,660 INFO    MainThread:20432 [wandb_run.py:_redirect():2401] Redirects installed.
+2024-10-26 15:38:13,660 INFO    MainThread:20432 [wandb_init.py:init():911] run started, returning control to user process
