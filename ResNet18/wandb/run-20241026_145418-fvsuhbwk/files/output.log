@@ -1,0 +1,263 @@
+Classes: ['birch', 'maple', 'pine', 'rowan', 'spruce']
+Number of training samples: 280
+Number of validation samples: 51
+Requirement already satisfied: torchsummary in c:\users\jamiv\.conda\envs\solutionspr\lib\site-packages (1.5.1)
+Note: you may need to restart the kernel to use updated packages.
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1         [-1, 64, 112, 112]           9,408
+       BatchNorm2d-2         [-1, 64, 112, 112]             128
+              ReLU-3         [-1, 64, 112, 112]               0
+         MaxPool2d-4           [-1, 64, 56, 56]               0
+            Conv2d-5           [-1, 64, 56, 56]          36,864
+       BatchNorm2d-6           [-1, 64, 56, 56]             128
+              ReLU-7           [-1, 64, 56, 56]               0
+            Conv2d-8           [-1, 64, 56, 56]          36,864
+       BatchNorm2d-9           [-1, 64, 56, 56]             128
+             ReLU-10           [-1, 64, 56, 56]               0
+       BasicBlock-11           [-1, 64, 56, 56]               0
+           Conv2d-12           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-13           [-1, 64, 56, 56]             128
+             ReLU-14           [-1, 64, 56, 56]               0
+           Conv2d-15           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-16           [-1, 64, 56, 56]             128
+             ReLU-17           [-1, 64, 56, 56]               0
+       BasicBlock-18           [-1, 64, 56, 56]               0
+           Conv2d-19          [-1, 128, 28, 28]          73,728
+      BatchNorm2d-20          [-1, 128, 28, 28]             256
+             ReLU-21          [-1, 128, 28, 28]               0
+           Conv2d-22          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-23          [-1, 128, 28, 28]             256
+           Conv2d-24          [-1, 128, 28, 28]           8,192
+      BatchNorm2d-25          [-1, 128, 28, 28]             256
+             ReLU-26          [-1, 128, 28, 28]               0
+       BasicBlock-27          [-1, 128, 28, 28]               0
+           Conv2d-28          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-29          [-1, 128, 28, 28]             256
+             ReLU-30          [-1, 128, 28, 28]               0
+           Conv2d-31          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-32          [-1, 128, 28, 28]             256
+             ReLU-33          [-1, 128, 28, 28]               0
+       BasicBlock-34          [-1, 128, 28, 28]               0
+           Conv2d-35          [-1, 256, 14, 14]         294,912
+      BatchNorm2d-36          [-1, 256, 14, 14]             512
+             ReLU-37          [-1, 256, 14, 14]               0
+           Conv2d-38          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-39          [-1, 256, 14, 14]             512
+           Conv2d-40          [-1, 256, 14, 14]          32,768
+      BatchNorm2d-41          [-1, 256, 14, 14]             512
+             ReLU-42          [-1, 256, 14, 14]               0
+       BasicBlock-43          [-1, 256, 14, 14]               0
+           Conv2d-44          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-45          [-1, 256, 14, 14]             512
+             ReLU-46          [-1, 256, 14, 14]               0
+           Conv2d-47          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-48          [-1, 256, 14, 14]             512
+             ReLU-49          [-1, 256, 14, 14]               0
+       BasicBlock-50          [-1, 256, 14, 14]               0
+           Conv2d-51            [-1, 512, 7, 7]       1,179,648
+      BatchNorm2d-52            [-1, 512, 7, 7]           1,024
+             ReLU-53            [-1, 512, 7, 7]               0
+           Conv2d-54            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-55            [-1, 512, 7, 7]           1,024
+           Conv2d-56            [-1, 512, 7, 7]         131,072
+      BatchNorm2d-57            [-1, 512, 7, 7]           1,024
+             ReLU-58            [-1, 512, 7, 7]               0
+       BasicBlock-59            [-1, 512, 7, 7]               0
+           Conv2d-60            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-61            [-1, 512, 7, 7]           1,024
+             ReLU-62            [-1, 512, 7, 7]               0
+           Conv2d-63            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-64            [-1, 512, 7, 7]           1,024
+             ReLU-65            [-1, 512, 7, 7]               0
+       BasicBlock-66            [-1, 512, 7, 7]               0
+AdaptiveAvgPool2d-67            [-1, 512, 1, 1]               0
+           Linear-68                 [-1, 1000]         513,000
+================================================================
+Total params: 11,689,512
+Trainable params: 11,689,512
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.57
+Forward/backward pass size (MB): 62.79
+Params size (MB): 44.59
+Estimated Total Size (MB): 107.96
+----------------------------------------------------------------
+ResNet(
+  (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+  (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu): ReLU(inplace=True)
+  (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+  (layer1): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (layer2): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (layer3): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (layer4): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+  (fc): Linear(in_features=512, out_features=1000, bias=True)
+)
+Epoch 1/20
+Train Loss: 0.5572715214350157, Train Accuracy: 84.28571428571429%
+Validation Loss: 9.45712086558342, Validation Accuracy: 49.01960784313726%
+Best model saved at epoch 1
+Epoch 2/20
+Train Loss: 0.33883149259620243, Train Accuracy: 89.64285714285714%
+Validation Loss: 1.6454386319965124, Validation Accuracy: 60.78431372549019%
+Best model saved at epoch 2
+Epoch 3/20
+Train Loss: 0.1613813070062962, Train Accuracy: 95.35714285714286%
+Validation Loss: 0.09992820210754871, Validation Accuracy: 96.07843137254902%
+Best model saved at epoch 3
+Epoch 4/20
+Train Loss: 0.2062583483962549, Train Accuracy: 94.28571428571429%
+Validation Loss: 1.6031850203871727, Validation Accuracy: 72.54901960784314%
+Epoch 5/20
+Train Loss: 0.1784063365517391, Train Accuracy: 95.71428571428571%
+Validation Loss: 0.7202959954738617, Validation Accuracy: 82.3529411764706%
+Epoch 6/20
+Train Loss: 0.13894642998153964, Train Accuracy: 95.0%
+Validation Loss: 0.24087200315261725, Validation Accuracy: 94.11764705882354%
+Epoch 7/20
+Train Loss: 0.11939459982224637, Train Accuracy: 96.07142857142857%
+Validation Loss: 0.3862244852250285, Validation Accuracy: 88.23529411764706%
+Epoch 8/20
+Train Loss: 0.06627781348975582, Train Accuracy: 97.5%
+Validation Loss: 0.4600023905610815, Validation Accuracy: 76.47058823529412%
+Epoch 9/20
+Train Loss: 0.054123459454988025, Train Accuracy: 97.85714285714286%
+Validation Loss: 0.31067992580938153, Validation Accuracy: 94.11764705882354%
+Epoch 10/20
+Train Loss: 0.10701401723134848, Train Accuracy: 95.71428571428571%
+Validation Loss: 0.5847259564325213, Validation Accuracy: 82.3529411764706%
+Epoch 11/20
+Train Loss: 0.04159073287155479, Train Accuracy: 99.64285714285714%
+Validation Loss: 0.03666482109019853, Validation Accuracy: 100.0%
+Best model saved at epoch 11
+Epoch 12/20
+Train Loss: 0.015581322892103344, Train Accuracy: 100.0%
+Validation Loss: 0.008590245357481763, Validation Accuracy: 100.0%
+Best model saved at epoch 12
+Epoch 13/20
+Train Loss: 0.01361342562692395, Train Accuracy: 99.64285714285714%
+Validation Loss: 0.8244601190090179, Validation Accuracy: 78.43137254901961%
+Epoch 14/20
+Train Loss: 0.06591487404916228, Train Accuracy: 97.85714285714286%
+Validation Loss: 0.014529548439895734, Validation Accuracy: 100.0%
+Epoch 15/20
+Train Loss: 0.1528067519991762, Train Accuracy: 95.71428571428571%
+Validation Loss: 0.07678867876529694, Validation Accuracy: 96.07843137254902%
+Epoch 16/20
+Train Loss: 0.13592519481769866, Train Accuracy: 96.07142857142857%
+Validation Loss: 0.24302219506898837, Validation Accuracy: 90.19607843137256%
+Epoch 17/20
+Train Loss: 0.1322822676350673, Train Accuracy: 95.0%
+Validation Loss: 0.17293122728005983, Validation Accuracy: 96.07843137254902%
+Epoch 18/20
+Train Loss: 0.07754900805755621, Train Accuracy: 96.78571428571429%
+Validation Loss: 0.21640097169256478, Validation Accuracy: 88.23529411764706%
+Epoch 19/20
+Train Loss: 0.09374891588878301, Train Accuracy: 97.14285714285714%
+Validation Loss: 0.12485079751786543, Validation Accuracy: 94.11764705882354%
+Epoch 20/20
+Train Loss: 0.02168354040865476, Train Accuracy: 99.64285714285714%
+Validation Loss: 0.1395500882063061, Validation Accuracy: 94.11764705882354%
+C:\Users\Jamiv\AppData\Local\Temp\ipykernel_20432\622833372.py:2: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load('resnet18_transfer_learning.pth'))
+<>:20: SyntaxWarning: invalid escape sequence '\p'
+<>:20: SyntaxWarning: invalid escape sequence '\p'
+C:\Users\Jamiv\AppData\Local\Temp\ipykernel_20432\413683719.py:20: SyntaxWarning: invalid escape sequence '\p'
+  image_path = 'test_data\pine\IMG-20241007-WA0017_jpg.rf.a2d4123d01a1dac6d5981c347ec459c9.jpg'  # Adjust the path as needed
+Predicted class: pine
+Number of predictions: 51
+Number of true labels: 51
+Accuracy: 0.9444
+Precision: 0.9722
+Recall: 0.9444
+F1 Score: 0.9519
+<>:28: SyntaxWarning: invalid escape sequence '\p'
+<>:28: SyntaxWarning: invalid escape sequence '\p'
+C:\Users\Jamiv\AppData\Local\Temp\ipykernel_20432\2885855318.py:28: SyntaxWarning: invalid escape sequence '\p'
+  image_path = 'test_data\pine\IMG-20241007-WA0017_jpg.rf.a2d4123d01a1dac6d5981c347ec459c9.jpg'
+Predicted class: pine
+Number of predictions: 51
+Number of true labels: 51
+Accuracy: 0.9444
+Precision: 0.9722
+Recall: 0.9444
+F1 Score: 0.9519
+Running on local URL:  http://127.0.0.1:7861
+Running on public URL: https://70bc358a340e1505f1.gradio.live
+
+This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)

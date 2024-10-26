@@ -1,0 +1,25 @@
+<>:20: SyntaxWarning: invalid escape sequence '\p'
+<>:20: SyntaxWarning: invalid escape sequence '\p'
+C:\Users\Jamiv\AppData\Local\Temp\ipykernel_20432\413683719.py:20: SyntaxWarning: invalid escape sequence '\p'
+  image_path = 'test_data\pine\IMG-20241007-WA0017_jpg.rf.a2d4123d01a1dac6d5981c347ec459c9.jpg'  # Adjust the path as needed
+Predicted class: pine
+Number of predictions: 51
+Number of true labels: 51
+Accuracy: 0.8056
+Precision: 0.8545
+Recall: 0.8056
+F1 Score: 0.7817
+C:\Users\Jamiv\AppData\Local\Temp\ipykernel_20432\4029735357.py:2: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load('resnet18_transfer_learning.pth'))
+Number of predictions: 51
+Number of true labels: 51
+Accuracy: 0.8333
+Precision: 0.9012
+Recall: 0.8333
+F1 Score: 0.8418
+C:\Users\Jamiv\AppData\Local\Temp\ipykernel_20432\609259031.py:1: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load('resnet18_transfer_learning.pth'))
+Accuracy: 0.8333
+Precision: 0.9012
+Recall: 0.8333
+F1 Score: 0.8418

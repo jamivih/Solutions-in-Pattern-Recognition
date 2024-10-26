@@ -1,0 +1,39 @@
+{"time":"2024-10-26T14:02:16.0868432+03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-26T14:02:16.0873811+03:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\Jamiv\\Desktop\\HAMK\\Staattisen verkkosivun rakentaminen\\Ryhmätyö\\testsite\\Solutions-in-Pattern-Recognition\\ResNet18\\wandb\\run-20241026_140216-rfok2796\\logs\\debug-core.log"}
+{"time":"2024-10-26T14:02:16.2046921+03:00","level":"INFO","msg":"created new stream","id":"rfok2796"}
+{"time":"2024-10-26T14:02:16.2046921+03:00","level":"INFO","msg":"stream: started","id":"rfok2796"}
+{"time":"2024-10-26T14:02:16.2046921+03:00","level":"INFO","msg":"sender: started","stream_id":"rfok2796"}
+{"time":"2024-10-26T14:02:16.2046921+03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"rfok2796"}}
+{"time":"2024-10-26T14:02:16.2046921+03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"rfok2796"}}
+{"time":"2024-10-26T14:02:16.5275243+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-26T14:02:17.1978141+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-26T14:02:21.4611478+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-26T14:02:21.4630613+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-26T14:02:22.8545565+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-26T14:02:22.8561427+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-26T14:02:25.8698388+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-26T14:02:25.8888859+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-26T14:02:29.5378037+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-26T14:02:29.9180868+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-26T14:02:33.0200717+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-26T14:02:33.5755684+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-26T14:02:37.3618104+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-26T14:02:37.3698201+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-26T14:02:42.2710616+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-26T14:02:42.2772452+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-26T14:02:44.3756054+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-26T14:02:44.3782693+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-26T14:02:48.6755541+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-26T14:02:48.6800767+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-26T14:03:11.0536728+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-26T14:07:01.0047717+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-26T14:08:09.7529557+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-26T14:08:09.781046+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-26T14:08:09.7817266+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-26T14:08:10.7917054+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.6748696}],"total_operations":1}}
+{"time":"2024-10-26T14:08:12.6717083+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-26T14:08:15.2261265+03:00","level":"INFO","msg":"stream: closing","id":"rfok2796"}
+{"time":"2024-10-26T14:08:15.2261265+03:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"rfok2796"}}
+{"time":"2024-10-26T14:08:15.2261265+03:00","level":"INFO","msg":"sender: closed","stream_id":"rfok2796"}
+{"time":"2024-10-26T14:08:15.2261265+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"rfok2796"}}
+{"time":"2024-10-26T14:08:15.2266333+03:00","level":"INFO","msg":"stream: closed","id":"rfok2796"}
