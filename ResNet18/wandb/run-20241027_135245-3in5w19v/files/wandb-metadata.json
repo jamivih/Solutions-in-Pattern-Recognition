@@ -1,0 +1,31 @@
+{
+  "os": "Windows-11-10.0.22631-SP0",
+  "python": "3.12.4",
+  "startedAt": "2024-10-27T11:52:49.771455Z",
+  "program": "c:\\Users\\Jamiv\\Desktop\\HAMK\\Staattisen verkkosivun rakentaminen\\Ryhmätyö\\testsite\\Solutions-in-Pattern-Recognition\\ResNet18\\ResNet18_model.ipynb",
+  "git": {
+    "remote": "https://github.com/jamivih/Solutions-in-Pattern-Recognition.git",
+    "commit": "aae65c9afd5519a70de5fec12d0d438316f66b63"
+  },
+  "email": "jamivihanto@outlook.com",
+  "root": "c:\\Users\\Jamiv\\Desktop\\HAMK\\Staattisen verkkosivun rakentaminen\\Ryhmätyö\\testsite\\Solutions-in-Pattern-Recognition\\ResNet18",
+  "host": "LAPTOP-FBADO1TL",
+  "username": "Jamiv",
+  "executable": "c:\\Users\\Jamiv\\.conda\\envs\\SolutionsPR\\python.exe",
+  "codePathLocal": "ResNet18_model.ipynb",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "510507945984",
+      "used": "432343609344"
+    }
+  },
+  "memory": {
+    "total": "16859357184"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

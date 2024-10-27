@@ -1,0 +1,39 @@
+{"time":"2024-10-27T13:55:13.826622+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-27T13:55:13.826622+02:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\Jamiv\\Desktop\\HAMK\\Staattisen verkkosivun rakentaminen\\Ryhmätyö\\testsite\\Solutions-in-Pattern-Recognition\\ResNet18\\wandb\\run-20241027_135509-xtz7xf9p\\logs\\debug-core.log"}
+{"time":"2024-10-27T13:55:13.9423677+02:00","level":"INFO","msg":"created new stream","id":"xtz7xf9p"}
+{"time":"2024-10-27T13:55:13.9423677+02:00","level":"INFO","msg":"stream: started","id":"xtz7xf9p"}
+{"time":"2024-10-27T13:55:13.9423677+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xtz7xf9p"}}
+{"time":"2024-10-27T13:55:13.9423677+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"xtz7xf9p"}}
+{"time":"2024-10-27T13:55:13.9423677+02:00","level":"INFO","msg":"sender: started","stream_id":"xtz7xf9p"}
+{"time":"2024-10-27T13:55:14.2227706+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-27T13:55:14.6496279+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-27T13:55:15.9624653+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-27T13:55:15.9639783+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-27T13:55:17.2290598+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-27T13:55:17.2308535+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-27T13:55:19.5604908+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-27T13:55:19.57988+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-27T13:55:21.9579035+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-27T13:55:22.1151075+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-27T13:55:24.3798438+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-27T13:55:24.7923698+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-27T13:55:26.5114943+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-27T13:55:26.5172832+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-27T13:55:29.0516835+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-27T13:55:29.0536561+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-27T13:55:30.6769618+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-27T13:55:30.6795334+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-27T13:55:33.7940611+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-27T13:55:33.7970455+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-27T13:55:37.0256983+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-27T13:56:31.4210525+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-27T13:58:46.0978921+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-27T13:58:46.1214387+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-27T13:58:46.123624+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-27T13:58:47.0002555+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-27T13:58:47.1278829+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-10-27T13:58:48.2056998+02:00","level":"INFO","msg":"stream: closing","id":"xtz7xf9p"}
+{"time":"2024-10-27T13:58:48.2056998+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"xtz7xf9p"}}
+{"time":"2024-10-27T13:58:48.2056998+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"xtz7xf9p"}}
+{"time":"2024-10-27T13:58:48.2071327+02:00","level":"INFO","msg":"sender: closed","stream_id":"xtz7xf9p"}
+{"time":"2024-10-27T13:58:48.2093848+02:00","level":"INFO","msg":"stream: closed","id":"xtz7xf9p"}

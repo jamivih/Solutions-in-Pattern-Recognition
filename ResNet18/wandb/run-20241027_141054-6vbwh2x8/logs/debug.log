@@ -1,0 +1,65 @@
+2024-10-27 14:10:54,267 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-27 14:10:54,267 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Configure stats pid to 25872
+2024-10-27 14:10:54,268 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Jamiv\.config\wandb\settings
+2024-10-27 14:10:54,268 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Loading settings from c:\Users\Jamiv\Desktop\HAMK\Staattisen verkkosivun rakentaminen\Ryhmätyö\testsite\Solutions-in-Pattern-Recognition\ResNet18\wandb\settings
+2024-10-27 14:10:54,268 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-27 14:10:54,268 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-27 14:10:54,268 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-27 14:10:54,268 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-27 14:10:54,268 INFO    MainThread:25872 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\Jamiv\Desktop\HAMK\Staattisen verkkosivun rakentaminen\Ryhmätyö\testsite\Solutions-in-Pattern-Recognition\ResNet18\wandb\run-20241027_141054-6vbwh2x8\logs\debug.log
+2024-10-27 14:10:54,269 INFO    MainThread:25872 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\Jamiv\Desktop\HAMK\Staattisen verkkosivun rakentaminen\Ryhmätyö\testsite\Solutions-in-Pattern-Recognition\ResNet18\wandb\run-20241027_141054-6vbwh2x8\logs\debug-internal.log
+2024-10-27 14:10:54,269 INFO    MainThread:25872 [wandb_init.py:init():621] calling init triggers
+2024-10-27 14:10:54,269 INFO    MainThread:25872 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'epochs': 10, 'batch_size': 16, 'learning_rate': 0.001, 'architecture': 'ResNet18', 'dataset': 'tree_detection'}
+2024-10-27 14:10:54,269 INFO    MainThread:25872 [wandb_init.py:init():646] re-initializing run, found existing run on stack: icl2hmw8
+2024-10-27 14:10:54,271 INFO    MainThread:25872 [wandb_run.py:_finish():2158] finishing run jvhamk-h-me-university-of-applied-sciences/resnet18-transfer-learning-hamk/icl2hmw8
+2024-10-27 14:10:54,272 INFO    MainThread:25872 [jupyter.py:save_history():459] not saving jupyter history
+2024-10-27 14:10:54,272 INFO    MainThread:25872 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-27 14:10:54,272 INFO    MainThread:25872 [wandb_init.py:_jupyter_teardown():462] cleaning up jupyter logic
+2024-10-27 14:10:54,273 INFO    MainThread:25872 [wandb_run.py:_atexit_cleanup():2426] got exitcode: 0
+2024-10-27 14:10:54,273 INFO    MainThread:25872 [wandb_run.py:_restore():2408] restore
+2024-10-27 14:10:54,273 INFO    MainThread:25872 [wandb_run.py:_restore():2414] restore done
+2024-10-27 14:10:56,568 INFO    MainThread:25872 [wandb_run.py:_footer_history_summary_info():3975] rendering history
+2024-10-27 14:10:56,568 INFO    MainThread:25872 [wandb_run.py:_footer_history_summary_info():4007] rendering summary
+2024-10-27 14:10:56,576 INFO    MainThread:25872 [wandb_run.py:_footer_sync_info():3934] logging synced files
+2024-10-27 14:10:56,581 INFO    MainThread:25872 [wandb_init.py:init():671] starting backend
+2024-10-27 14:10:56,582 INFO    MainThread:25872 [wandb_init.py:init():675] sending inform_init request
+2024-10-27 14:10:56,589 INFO    MainThread:25872 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-27 14:10:56,595 INFO    MainThread:25872 [wandb_init.py:init():688] backend started and connected
+2024-10-27 14:10:56,607 INFO    MainThread:25872 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-27 14:10:56,630 INFO    MainThread:25872 [wandb_init.py:init():783] updated telemetry
+2024-10-27 14:10:56,697 INFO    MainThread:25872 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-27 14:10:57,012 INFO    MainThread:25872 [wandb_init.py:init():867] starting run threads in backend
+2024-10-27 14:10:57,725 INFO    MainThread:25872 [wandb_run.py:_console_start():2463] atexit reg
+2024-10-27 14:10:57,725 INFO    MainThread:25872 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2024-10-27 14:10:57,725 INFO    MainThread:25872 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2024-10-27 14:10:57,726 INFO    MainThread:25872 [wandb_run.py:_redirect():2401] Redirects installed.
+2024-10-27 14:10:57,727 INFO    MainThread:25872 [wandb_init.py:init():911] run started, returning control to user process
+2024-10-27 14:11:54,845 INFO    MainThread:25872 [wandb_watch.py:_watch():71] Watching
+2024-10-27 14:12:27,214 INFO    MainThread:25872 [wandb_watch.py:_watch():71] Watching
+2024-10-27 14:13:05,670 INFO    MainThread:25872 [wandb_watch.py:_watch():71] Watching
+2024-10-27 14:14:06,456 INFO    MainThread:25872 [wandb_watch.py:_watch():71] Watching
+2024-10-27 14:14:37,306 INFO    MainThread:25872 [wandb_watch.py:_watch():71] Watching
+2024-10-27 14:15:06,302 INFO    MainThread:25872 [wandb_watch.py:_watch():71] Watching
+2024-10-27 14:25:26,599 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-27 14:25:26,600 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Configure stats pid to 25872
+2024-10-27 14:25:26,600 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Jamiv\.config\wandb\settings
+2024-10-27 14:25:26,600 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Loading settings from c:\Users\Jamiv\Desktop\HAMK\Staattisen verkkosivun rakentaminen\Ryhmätyö\testsite\Solutions-in-Pattern-Recognition\ResNet18\wandb\settings
+2024-10-27 14:25:26,600 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-27 14:25:26,600 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-27 14:25:26,601 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-27 14:25:26,601 INFO    MainThread:25872 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-27 14:25:26,601 INFO    MainThread:25872 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\Jamiv\Desktop\HAMK\Staattisen verkkosivun rakentaminen\Ryhmätyö\testsite\Solutions-in-Pattern-Recognition\ResNet18\wandb\run-20241027_142526-b6p2vwg6\logs\debug.log
+2024-10-27 14:25:26,602 INFO    MainThread:25872 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\Jamiv\Desktop\HAMK\Staattisen verkkosivun rakentaminen\Ryhmätyö\testsite\Solutions-in-Pattern-Recognition\ResNet18\wandb\run-20241027_142526-b6p2vwg6\logs\debug-internal.log
+2024-10-27 14:25:26,602 INFO    MainThread:25872 [wandb_init.py:_jupyter_setup():480] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001A972C71850>
+2024-10-27 14:25:26,602 INFO    MainThread:25872 [wandb_init.py:init():621] calling init triggers
+2024-10-27 14:25:26,602 INFO    MainThread:25872 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'epochs': 10, 'batch_size': 16, 'learning_rate': 0.001, 'architecture': 'ResNet18', 'dataset': 'tree_detection'}
+2024-10-27 14:25:26,602 INFO    MainThread:25872 [wandb_init.py:init():646] re-initializing run, found existing run on stack: 6vbwh2x8
+2024-10-27 14:25:26,605 INFO    MainThread:25872 [wandb_run.py:_finish():2158] finishing run jvhamk-h-me-university-of-applied-sciences/resnet18-transfer-learning-hamk/6vbwh2x8
+2024-10-27 14:25:26,606 INFO    MainThread:25872 [wandb_run.py:_atexit_cleanup():2426] got exitcode: 0
+2024-10-27 14:25:26,607 INFO    MainThread:25872 [wandb_run.py:_restore():2408] restore
+2024-10-27 14:25:26,607 INFO    MainThread:25872 [wandb_run.py:_restore():2414] restore done
+2024-10-27 14:25:31,998 INFO    MainThread:25872 [wandb_run.py:_footer_history_summary_info():3975] rendering history
+2024-10-27 14:25:31,999 INFO    MainThread:25872 [wandb_run.py:_footer_history_summary_info():4007] rendering summary
+2024-10-27 14:25:32,007 INFO    MainThread:25872 [wandb_run.py:_footer_sync_info():3934] logging synced files

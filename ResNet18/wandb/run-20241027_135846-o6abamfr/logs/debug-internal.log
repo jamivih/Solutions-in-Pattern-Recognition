@@ -1,0 +1,8 @@
+{"time":"2024-10-27T13:58:48.2155773+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-27T13:58:48.2165874+02:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\Jamiv\\Desktop\\HAMK\\Staattisen verkkosivun rakentaminen\\Ryhmätyö\\testsite\\Solutions-in-Pattern-Recognition\\ResNet18\\wandb\\run-20241027_135846-o6abamfr\\logs\\debug-core.log"}
+{"time":"2024-10-27T13:58:48.3714202+02:00","level":"INFO","msg":"created new stream","id":"o6abamfr"}
+{"time":"2024-10-27T13:58:48.3714202+02:00","level":"INFO","msg":"stream: started","id":"o6abamfr"}
+{"time":"2024-10-27T13:58:48.3714202+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"o6abamfr"}}
+{"time":"2024-10-27T13:58:48.3714202+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"o6abamfr"}}
+{"time":"2024-10-27T13:58:48.3714202+02:00","level":"INFO","msg":"sender: started","stream_id":"o6abamfr"}
+{"time":"2024-10-27T13:58:48.6409169+02:00","level":"INFO","msg":"Starting system monitor"}
